@@ -12,3 +12,8 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+.arrow {
+	position:relative;
+	margin-top:100%;
+}
