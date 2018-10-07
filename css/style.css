@@ -12,6 +12,9 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+.test {
+	border-bottom: 3px solid #ff00ff;
+}
 
 .arrow {
 	position:relative;
