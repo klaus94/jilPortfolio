@@ -6,17 +6,58 @@
  * Made By MaterializeCSS.com
  */
 
+/* general */
+body {
+	color: #999999;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+h2 {
+	color: #999999;
+	margin-top: 120px;
+}
+
+p {
+	font-size: 26px;
+}
+
+
+.gray {
+	background-color: #999999 !important;
+}
+
+/* navbar */
+
+nav ul a {
+	font-size: 18px;
+}
+
+.navbar {
+	background-color: #6d5e98;
+	overflow: hidden;
+    position: fixed;
+    top: 0; 
+	width: 100%;
+	z-index: 1000;
+}
+
+/* main */
+.main {
+	margin-top: 90px;
+}
+
+
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
 	font-size: inherit;
 }
-.test {
-	border-bottom: 3px solid #ff00ff;
-}
 
-.arrow {
-	position:relative;
-	margin-top:100%;
+.circle {
+    border-radius: 50%;
 }
