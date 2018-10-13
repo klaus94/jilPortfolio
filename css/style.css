@@ -17,6 +17,9 @@ h1 {
 
 h2 {
 	color: #999999;
+}
+
+.top-margin {
 	margin-top: 120px;
 }
 
@@ -27,6 +30,10 @@ p {
 
 .gray {
 	background-color: #999999 !important;
+}
+
+.clickable:hover {
+	cursor: pointer;
 }
 
 /* navbar */
