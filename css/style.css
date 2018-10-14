@@ -47,8 +47,10 @@ nav ul a {
 	z-index: 1000;
 }
 
-.navbar .active {
+.navbar .active .underline {
 	background-color: pink;
+	margin-top: -12px;
+	height: 2px;
 }
 
 /* main */
