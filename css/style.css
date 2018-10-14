@@ -11,6 +11,10 @@ body {
 	color: #999999;
 }
 
+.container {
+	width: 90%;
+}
+
 h1 {
 	font-size: 100px;
 }
