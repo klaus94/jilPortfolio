@@ -71,7 +71,7 @@ nav ul a {
     border-radius: 50%;
 }
 
-.main_container {
+.background {
     background-image: url(/img/landing_background_16_9_weich.jpg);
     background-repeat:no-repeat;
 }
