@@ -11,6 +11,11 @@ function slaveToggleClick() {
   $('#slaveMoreInfo').toggle();
 }
 
+function warumToggleClick() {
+  $('#warumShortInfo').toggle();
+  $('#warumMoreInfo').toggle();
+}
+
 $(".arrow-smoothScroll").click(function(e){
   var $anchor = $(this);
   $('html, body').stop().animate({
