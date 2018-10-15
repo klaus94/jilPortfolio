@@ -39,11 +39,12 @@ p {
 /* navbar */
 
 nav ul a {
+	color: #999999;
 	font-size: 18px;
 }
 
 .navbar {
-	background-color: #6d5e98;
+	background-color: transparent;/*#6d5e98;*/
 	overflow: hidden;
     position: fixed;
     top: 0; 
