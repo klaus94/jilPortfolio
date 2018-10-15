@@ -30,4 +30,14 @@ $(document).ready(function(){
   });
 });
 
-
+window.onscroll = function (e) {
+  // called when the window is scrolled.
+  // document.documentElement.scrollTop
+  if (window.pageYOffset === 0) {
+    console.log("add top");
+    $('.navbar').addClass('mytop');
+  } else {
+    console.log("rm top");
+    $('.navbar').removeClass('mytop');
+  }
+}
