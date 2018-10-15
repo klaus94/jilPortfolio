@@ -16,14 +16,6 @@ function warumToggleClick() {
   $('#warumMoreInfo').toggle();
 }
 
-$(".arrow-smoothScroll").click(function(e){
-  var $anchor = $(this);
-  $('html, body').stop().animate({
-      scrollTop: $($anchor.attr('href')).offset().top - 120
-  }, 500);
-  e.preventDefault(); //this is the important line.
-});
-
 // scroll spy
 $(document).ready(function(){
   $('.scrollspy').scrollSpy();
@@ -39,10 +31,8 @@ window.onscroll = function (e) {
   // called when the window is scrolled.
   // document.documentElement.scrollTop
   if (window.pageYOffset === 0) {
-    console.log("add top");
     $('.navbar').addClass('mytop');
   } else {
-    console.log("rm top");
     $('.navbar').removeClass('mytop');
   }
 }
