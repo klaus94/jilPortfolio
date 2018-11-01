@@ -6,9 +6,93 @@
  * Made By MaterializeCSS.com
  */
 
+/* general */
+body {
+	color: #999999;
+}
+
+.container {
+	width: 90%;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+h2 {
+	color: #999999;
+}
+
+p {
+	font-size: 26px;
+}
+
+
+.gray {
+	background-color: #999999 !important;
+}
+
+.clickable:hover {
+	cursor: pointer;
+}
+
+/* navbar */
+
+nav ul a {
+	color: #999999;
+	font-size: 18px;
+}
+
+.navbar {
+	background-color: #212121;
+	overflow: hidden;
+    position: fixed;
+    top: 0; 
+	width: 100%;
+	z-index: 1000;
+}
+
+.mytop {
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.navbar .active .underline {
+	background-color: pink;
+	margin-top: -12px;
+	height: 2px;
+}
+
+/* main */
+.main {
+	margin-top: 90px;
+}
+
+
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
 	font-size: inherit;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.background {
+    background-image: url(../img/landing_background_16_9_weich.jpg);
+    background-repeat:no-repeat;
+   
+}
+
+.person-name {
+	/* todo */
+}
+
+.person-role {
+	/* todo */
 }
