@@ -47,7 +47,7 @@ nav ul a {
 	background-color: #212121;
 	overflow: hidden;
     position: fixed;
-    top: 0; 
+    top: 0;
 	width: 100%;
 	z-index: 1000;
 }
@@ -82,11 +82,48 @@ nav ul a {
 .circle {
     border-radius: 50%;
 }
-
+.card .card-action {
+    position: inherit !important;
+}
 .background {
-    background-image: url(../img/landing_background_16_9_weich.jpg);
-    background-repeat:no-repeat;
-   
+	height:100vh;
+	width: 100vw;
+	position: relative;
+	z-index: 2;
+	background-image: url(../img/landing_background_16_9_weich.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center center;
+	top: 0;
+}
+.background h1 {
+	text-transform: uppercase;
+}
+.background p,.background h1, .background h5 {
+	text-shadow:2px 2px 5px black;
+}
+.btn-large {
+	cursor: pointer;
+}
+.card-action .clickable {
+  padding:20px 40px;
+	background:orange;
+	color:#fff !important;
+	font-size: 25px;
+	border-radius:2px;
+	box-shadow: 0px 5px 10px -2px #0004;
+}
+.container-16by9 {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+#contact .card-content {
+		background:#333;
+}
+#contact * {
+	color: white
 }
 
 .person-name {
